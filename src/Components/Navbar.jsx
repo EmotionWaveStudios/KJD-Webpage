@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="#">Contact</a>
         </li>
       </ul>
-      <button>Let's Talk</button>
+      <input type="submit" value="Let's Talk" />
     </div>
   );
 };
