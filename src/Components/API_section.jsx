@@ -9,6 +9,7 @@ const API_section = () => {
   const fetchCard = async () => {
     const response = await axios.get(URL);
     setCard(response.data);
+
     console.log(response.data);
   };
 
