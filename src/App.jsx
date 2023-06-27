@@ -3,7 +3,7 @@ import Header from "./Components/Header";
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import API_section from "./Components/API_section";
+import APISection from "./Components/APISection";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Main />
-      <API_section />
+      <APISection />
       <Brands />
       <Footer />
     </div>

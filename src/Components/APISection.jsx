@@ -4,7 +4,7 @@ import axios from "axios";
 const URL =
   "https://zm6zxgq6hyhe3smi5krzsrk2fu0iidhh.lambda-url.us-east-1.on.aws/";
 
-const API_section = () => {
+const APISection = () => {
   const [card, setCard] = useState([]);
   const fetchCard = async () => {
     const response = await axios.get(URL);
@@ -36,4 +36,4 @@ const API_section = () => {
   );
 };
 
-export default API_section;
+export default APISection;

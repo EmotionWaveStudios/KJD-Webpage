@@ -1,35 +1,33 @@
 const Navbar = () => {
   return (
     <div>
-      <div className="bg-[#70259B] flex text-white w-full absolute">
-        <div id="logo" className="border-red-600 border-2 w-1/5 text-center">
-          <span className="text-2xl">K</span>
-          <span className="text-3xl">J</span>
-          <span className="text-2xl">D</span>
+      <div className="bg-[#70259B] flex text-white w-full fixed">
+        <div id="logo" className="w-1/5 flex justify-center items-center">
+          <p className="text-3xl">K</p>
+          <p className="text-4xl">J</p>
+          <p className="text-3xl">D</p>
         </div>
 
-        <div id="navbar" className="border-red-600 border-2 w-3/5 ">
-          <ul className="flex py-1 px-3 border-red-600 border-2 w-1/3 mx-auto">
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Industries</a>
-            </li>
-            <li>
-              <a href="#">Cases</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+        <ul className="flex gap-7 w-3/5  text-lg py-4 px-3 items-center justify-center">
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Industries</a>
+          </li>
+          <li>
+            <a href="#">Cases</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
 
-        <div id="btn" className="border-red-600 border-2 w-1/5 text-center">
+        <div id="btn" className=" w-1/5 text-center">
           <input
             type="submit"
             value="Let's Talk"
-            className="bg-white text-[#70259B] h-3/5 min-w-1/3 px-7 py-5 rounded-3xl"
+            className="bg-white text-[#70259B] min-w-1/3 px-7 py-2 mt-3 rounded-3xl"
           />
         </div>
       </div>
